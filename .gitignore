@@ -1,0 +1,41 @@
+# Ignore system and user files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore virtual environments and dependencies
+venv/
+env/
+myenv/
+new-env/
+new_venv/
+new_venv_dir/
+speechbot-env/
+node_modules/
+
+# Ignore build files
+build/
+dist/
+
+# Ignore dataset and model files
+*.caffemodel
+*.pb
+*.weights
+
+# Ignore generated or cached files
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite3
+*.mp3
+
+# Ignore personal files
+.bash_history
+.python_history
+*.db

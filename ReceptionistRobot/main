@@ -1,0 +1,2 @@
+USB_CAMERA_PATH = "/dev/video3"  # Replace with the correct device path
+USB_CAMERA_INDEX = 3            # Corresponding index
